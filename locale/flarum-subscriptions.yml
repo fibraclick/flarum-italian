@@ -33,7 +33,7 @@ flarum-subscriptions:
       not_following_button: 'Predefinito'
       not_following_text: 'Ricevi una notifica solo quando vieni @menzionato.'
       notify_alert_tooltip: 'Ricevi una notifica quando qualcuno risponde'
-      notify_email_tooltip: 'Ricevi un'email quando qualcuno risponde'
+      notify_email_tooltip: 'Ricevi un''email quando qualcuno risponde'
   ref:
     follow: Segui
     following: Seguita

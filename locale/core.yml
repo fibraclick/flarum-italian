@@ -61,7 +61,7 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 'Ti abbiamo inviato un'email con le istruzioni per il recupero della password. Se non la vedi, controlla in Spam.'
+      email_sent_message: 'Ti abbiamo inviato un''email con le istruzioni per il recupero della password. Se non la vedi, controlla in Spam.'
       not_found_message: 'Non abbiamo trovato utenti registrati con questo indirizzo email.'
       submit_button: 'Invia'
       text: 'Inserisci il tuo indirizzo email e ti invieremo le istruzioni per il recupero della password.'
@@ -93,7 +93,7 @@ core:
       newest_button: Nuove
       oldest_button: Vecchie
       relevance_button: Rilevanti
-      toggle_dropdown_accessible_label: 'Cambia l'ordinamento della lista di discussioni'
+      toggle_dropdown_accessible_label: 'Cambia l''ordinamento della lista di discussioni'
       top_button: Con più risposte
     log_in:
       forgot_password_link: 'Password dimenticata?'
@@ -178,10 +178,10 @@ core:
       button: Controlli
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Sei sicuro/a di voler eliminare questo utente? I messaggi di questo utente NON verrano cancellati.'
-      delete_error_message: 'L'eliminazione dell''utente <i>{username} ({email})</i> fallità'
+      delete_error_message: 'L''eliminazione dell''utente <i>{username} ({email})</i> fallità'
       delete_success_message: 'L''utente <i>{username} ({email})</i> è stato eliminato'
       edit_button: '=> core.ref.edit'
-      toggle_dropdown_accessible_label: 'Mostra/nascondi il menù con le azioni per l'utente'
+      toggle_dropdown_accessible_label: 'Mostra/nascondi il menù con le azioni per l''utente'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Invia di nuovo'
@@ -250,7 +250,7 @@ core:
     color: Colore
     confirm_email: 'Conferma email'
     confirm_password: 'Conferma password'
-    confirmation_email_sent: 'Abbiamo inviato un'email di conferma all'indirizzo {email}. Se non la vedi, controlla in Spam.'
+    confirmation_email_sent: 'Abbiamo inviato un''email di conferma all''indirizzo {email}. Se non la vedi, controlla in Spam.'
     delete: Elimina
     delete_forever: 'Elimina per sempre'
     discussions: Discussioni
@@ -287,7 +287,7 @@ core:
   views:
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
-      text: 'Premi il pulsante per confermare l'indirizzo email del tuo account.'
+      text: 'Premi il pulsante per confermare l''indirizzo email del tuo account.'
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Questo sito è ottimizzato per un browser moderno con JavaScript abilitato.'

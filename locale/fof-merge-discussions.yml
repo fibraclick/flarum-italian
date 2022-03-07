@@ -11,7 +11,7 @@ fof-merge-discussions:
       updating_failed: 'Impossibile aggiornare i dettagli della discussione.'
   email:
     merged:
-      body: "Ciao {recipient_display_name},\n\nla tua discussione ""{merged_discussion_title}"" è stata unita a {discussion_title}.\n\nVisualizzala qui {discussion_url}\n"
+      body: 'Ciao {recipient_display_name},\n\nla tua discussione "{merged_discussion_title}" è stata unita a {discussion_title}.\n\nVisualizzala qui {discussion_url}\n'
       subject: 'La tua discussione "{merged_discussion_title}" è stata unita'
   forum:
     notification:
@@ -20,4 +20,3 @@ fof-merge-discussions:
         discussion_merged: 'Qualcuno unisce una delle mie discussioni con un''altra'
     post:
       merged: '{count, plural, one {<b>#</b> post è stato unito dalla discussione {titles}.} other {<b>#</b> post sono stati uniti dalla discussione {titles}.}}'
-

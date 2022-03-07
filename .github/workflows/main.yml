@@ -18,3 +18,15 @@ jobs:
         uses: ibiqlik/action-yamllint@v3.0.0
         with:
           format: colored
+          file_or_dir: locale/
+          config_data: |
+            extends: default
+            rules:
+              brackets: disable
+              line-length: disable
+              new-line-at-end-of-file:
+                level: warning
+              trailing-spaces: disable
+              document-start: disable
+              truthy: disable
+              comments: disable

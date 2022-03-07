@@ -14,17 +14,17 @@ fof-nightmode:
         description: 'Scegli il tema che vuoi usare sul forum.'
         description2: 'Il tema scelto verrà memorizzato nel tuo account e si applicherà quindi a tutti i tuoi dispositivi dove hai effettuato l''accesso, a meno che non cambi l''impostazione qua sotto.'
         device_specific_setting_checkbox: 'Usa impostazioni diverse per ogni dispositivo'
-        device_specific_setting_checkbox_tooltip: 'L'i'impostazione del tema avrà effetto solo sul dispositivo corrente.'
+        device_specific_setting_checkbox_tooltip: 'L''impostazione del tema avrà effetto solo sul dispositivo corrente.'
         heading: Tema
         option_descriptions:
           auto: 'Automatico: il tema verrà scelto automaticamente in base alle impostazioni del tuo browser o del tuo dispositivo. Ad esempio, se hai la modalità scura attiva su iOS, il forum userà la modalità notturna.'
-          day: 'Modalità diurna: l'esperienza classica a cui sei abituato.'
-          night: 'Modalità notturna: sei una persona un po' nottambula... O semplicemente ti piacciono i colori scuri :)'
+          day: 'Modalità diurna: l''esperienza classica a cui sei abituato.'
+          night: 'Modalità notturna: sei una persona un po'' nottambula... O semplicemente ti piacciono i colori scuri :)'
         options:
           auto: '=> fof-nightmode.ref.auto'
           day: '=> fof-nightmode.ref.light'
           night: '=> fof-nightmode.ref.dark'
   ref:
-    auto: 'Automatico
+    auto: 'Automatico'
     dark: 'Modalità notturna'
     light: 'Modalità diurna'

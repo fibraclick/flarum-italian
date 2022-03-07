@@ -8,8 +8,8 @@ flarumite:
       post:
         accordion:
           tooltips:
-            closed: 'Clicca per rivelare'
-            open: 'Clicca per nascondere'
+            closed: 'Premi per mostrare'
+            open: 'Premi per nascondere'
         spoiler:
-          closed: 'Clicca per rivelare'
-          open: 'Clicca per nascondere'
+          closed: 'Premi per mostrare'
+          open: 'Premi per nascondere'

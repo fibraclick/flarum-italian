@@ -4,4 +4,4 @@
 
 fof-email-checker:
   error:
-    disposable_email_message: 'Non puoi utilizzare un''e-mail temporanea.'
+    disposable_email_message: 'Non puoi iscriverti con un''email temporanea.'

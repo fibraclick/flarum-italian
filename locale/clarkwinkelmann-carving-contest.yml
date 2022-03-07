@@ -1,0 +1,37 @@
+clarkwinkelmann-carving-contest:
+    forum:
+        nav:
+            contest: Carving Contest
+
+        page:
+            title: Pumpkin Carving Contest
+            loading: Caricamento...
+            participate: Partecipa
+            already-participated: Hai già partecipato
+            delete-confirmation: Vuoi davvero eliminare "{name}" di {username}?
+            like: Mi piace
+            already-liked: Ti piace
+            unlike: Non mi piace più
+            refresh: Ricarica
+            load-more: Carica altro
+            sort:
+                mostLikes: Più votati
+                fewerLikes: Meno votati
+                mostRecent: Più recenti
+                leastRecent: Meno recenti
+            likes:
+                you_text: => core.ref.you
+                others_link: => core.ref.some_others
+                liked_by_self_text: "{users} hai messo mi piace."
+                liked_by_text: "{count, plural, one {{users} ha messo mi piace.} other {{users} hanno messo mi piace.}}"
+
+        modal:
+            title: Partecipa
+            name: Da' un nome alla tua creazione
+            submit: Invia
+            tools:
+                circle: Cerchio
+                square: Quadrato
+
+        likes_modal:
+            title: Utenti che hanno messo mi piace

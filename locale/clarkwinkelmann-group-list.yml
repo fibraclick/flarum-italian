@@ -3,14 +3,5 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-group-list:
-  admin:
-    items:
-      add: 'Aggiungi gruppo'
-    permissions:
-      see: 'Vedi lista gruppi'
-    settings:
-      showAvatarBadges: 'Mostra altri badge vicini all''avatar'
-      showOnlineStatus: 'Mostra stato online'
-      showSideNavLink: 'Mostra link nella sidebar'
   forum:
-    nav: 'Lista Gruppo'
+    nav: 'Gruppi'

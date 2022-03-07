@@ -3,11 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-approval:
-  admin:
-    permissions:
-      approve_posts_label: 'Approvare messaggi'
-      reply_without_approval_label: 'Rispondere alle discussioni senza previa approvazione'
-      start_discussions_without_approval_label: 'Iniziare discussioni senza previa approvazione'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'

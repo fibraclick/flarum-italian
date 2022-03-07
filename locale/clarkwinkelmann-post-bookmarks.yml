@@ -3,22 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-post-bookmarks:
-  admin:
-    settings:
-      buttonPosition: 'Posizione pulsante'
-      buttonPositionActions: 'Azioni Veloci (sotto i post)'
-      buttonPositionHeader: 'Header (parte superiore dei post)'
-      buttonPositionMenu: 'Nel menu dei post (3 puntini)'
-      headerBadge: 'Mostra l''etichetta "preferiti" su un post aggiunto ai preferiti'
   forum:
     alert:
-      added: 'Preferito  Aggiunto!'
-      removed: 'Preferito Rimosso!'
-      show-bookmarks: 'Vai ai Preferiti'
-    badge: 'Aggiunto ai Preferiti'
+      added: 'Preferito  aggiunto!'
+      removed: 'Preferito rimosso!'
+      show-bookmarks: 'Vai ai preferiti'
+    badge: 'Preferito'
     button:
-      add: Preferiti
-      remove: 'Aggiunto ai Preferiti'
+      add: 'Aggiungi ai preferiti'
+      remove: 'Rimuovi preferito'
     page:
       link: Preferiti
       title: Preferiti

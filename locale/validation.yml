@@ -17,8 +17,8 @@ validation:
     name_plural: 'nome plurale'
     name_singular: 'nome singolare'
     password: password
-    tag_count_primary: 'numero di etichette primarie'
-    tag_count_secondary: 'numero di etichette secondarie'
+    tag_count_primary: 'numero di categorie'
+    tag_count_secondary: 'numero di tag'
     title: titolo
     username: 'nome utente'
   before: ':attribute deve essere una data precedente al :date.'
@@ -90,7 +90,7 @@ validation:
   password: 'Il campo :attribute non è corretto.'
   present: 'Il campo :attribute deve essere presente.'
   prohibited: 'Il campo :attribute è proibito.'
-  prohibited_if: 'Il campo :attribute è proibito quanto :other è :value.'
+  prohibited_if: 'Il campo :attribute è vietato quando :other è :value.'
   prohibited_unless: 'Il campo :attributo è vietato a meno che :other non sia in :values.'
   regex: 'Il formato del campo :attribute non è valido.'
   required: 'Il campo :attribute è richiesto.'

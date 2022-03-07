@@ -3,9 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-lock:
-  admin:
-    permissions:
-      lock_discussions_label: 'Chiudere le discussioni'
   forum:
     badge:
       locked_tooltip: Chiusa
@@ -18,4 +15,4 @@ flarum-lock:
       discussion_locked_text: '{username} ha chiuso la discussione.'
       discussion_unlocked_text: '{username} ha riaperto la discussione.'
     settings:
-      notify_discussion_locked_label: 'Qualcuno ha chiuso una discussione che ho iniziato'
+      notify_discussion_locked_label: 'Una mia discussione viene chiusa'

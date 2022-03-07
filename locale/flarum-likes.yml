@@ -3,9 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-likes:
-  admin:
-    permissions:
-      like_posts_label: 'Mettere mi piace ai messaggi'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -15,9 +12,9 @@ flarum-likes:
       liked_by_self_text: '{count, plural, one {{users} hai messo mi piace} other {{users} hanno messo mi piace}}'
       liked_by_text: '{count, plural, one {{users} ha messo mi piace} other {{users} hanno messo mi piace}}.'
       others_link: '=> core.ref.some_others'
-      unlike_link: 'Non mi piace'
+      unlike_link: 'Togli mi piace'
       you_text: '=> core.ref.you'
     post_likes:
-      title: 'Utenti a cui piace il messaggio'
+      title: 'Utenti che hanno messo mi piace'
     settings:
-      notify_post_liked_label: 'A qualcuno piace un mio messaggio'
+      notify_post_liked_label: 'Qualcuno mette mi piace a un mio messaggio'

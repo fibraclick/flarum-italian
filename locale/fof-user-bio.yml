@@ -3,13 +3,6 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-user-bio:
-  admin:
-    permission:
-      editAny: 'Modificare qualunque bio'
-      editOwn: 'Modificare la propria bio'
-      view: 'Visualizzare la bio'
-    setting:
-      bioLimit: 'Limite caratteri bio'
   forum:
-    userbioPlaceholder: 'Scrivici qualcosa di te'
-    userbioPlaceholderOtherUser: 'Qualche parola riguardo {username}'
+    userbioPlaceholder: 'Scrivi qualcosa su di te'
+    userbioPlaceholderOtherUser: 'Scrivi una bio per {username}'

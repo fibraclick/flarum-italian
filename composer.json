@@ -1,5 +1,5 @@
 {
-    "name": "flarum-lang/italian",
+    "name": "fibraclick/flarum-italian",
     "description": "Pacchetto in lingua Italiana per Flarum e relative estensioni.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "italian", "locale", "translation"],

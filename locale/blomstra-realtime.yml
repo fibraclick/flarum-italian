@@ -3,12 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 blomstra-realtime:
-  admin:
-    permission:
-      view-who-types: 'Mostra chi sta scrivendo'
   forum:
     push:
       discussion-list-new-activity: '{count, plural, one {Mostra # discussione aggiornata} other {Mostra # discussioni aggiornate}}'
     typing-indicator:
       no-activity: 'Nessuno sta scrivendo'
-      people-are-typing: '{number, plural, one {# utente stà scrivendo} other {# utenti stanno scrivendo}}'
+      people-are-typing: '{number, plural, one {# utente sta scrivendo} other {# utenti stanno scrivendo}}'

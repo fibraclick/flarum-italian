@@ -3,10 +3,7 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-spamblock:
-  admin:
-    permissions:
-      spamblock_users_label: 'Contrassegna utente come spammer'
   forum:
     user_controls:
       spammer_button: Spammer
-      spammer_confirmation: "Sei sicuro di voler \n• nascondere post e discussioni dell'utente? \n• [flarum/suspend] Sospendi utente"
+      spammer_confirmation: "Conferma di voler: \n• Cancellare (nascondere) tutti i post e discussioni dell'utente\n• Sospendere l'utente a tempo indeterminato"

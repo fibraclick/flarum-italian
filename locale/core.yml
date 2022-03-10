@@ -146,7 +146,7 @@ core:
       account_heading: Account
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
-      notifications_heading: '=> core.ref.notifications'
+      notifications_heading: 'Notificami se...'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
       notify_discussion_renamed_label: 'Qualcuno modifica una discussione che ho iniziato'
@@ -264,7 +264,7 @@ core:
     log_out: Logout
     mark_all_as_read: 'Imposta tutto come letto'
     next_page: 'Pagina successiva'
-    notifications: Notificami se...
+    notifications: Notifiche
     okay: OK
     password: Password
     posts: Messaggi

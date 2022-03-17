@@ -26,15 +26,15 @@ sycho-move-posts:
     notifications:
       post_moved_text: 'Uno o più post che hai scritto sono stati spostati in {targetDiscussionTitle}.'
     post:
-      move: 'Sposta anche questo'
+      move: 'Seleziona per spostare'
       moving: 'Spostamento post'
       unmove: 'Non spostare'
     post_stream:
-      post_moved: '{count, plural, one {Un tuo messaggio è stato spostato in {target_discussion}.} other {{count} tuoi messaggi sono stati spostati in {target_discussion}.}}'
+      post_moved: '{count, plural, one {Un messaggio è stato spostato in {target_discussion}.} other {{count} messaggi sono stati spostati in {target_discussion}.}}'
   lib:
     discussion:
       first_post:
-        default_content: "*Questo post è stato spostato in **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+        default_content: "*Questo messaggio è stato spostato in **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
   ref:
     move_posts: 'Sposta messaggi'
     status:

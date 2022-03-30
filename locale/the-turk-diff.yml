@@ -1,61 +1,61 @@
 the-turk-diff:
-    forum:
-        revisions:                    "{revisionCount, plural, one {{revisionCount} revisione} other {{revisionCount} revisioni}}"
-        emptyText:                    Nessuna revisione
-        editedText:                   => core.forum.post.edited_text
-        deletedText:                  (eliminato)
-        
-        tooltips:
-          # Revision List Tooltips
-          mostRecent:                 più recente
-          originalContent:            => the-turk-diff.ref.originalContent
-          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
-          ## Renderer Switcher Tooltips
-          sideBySide:                 Side by side
-          inline:                     Line by line
-          combined:                   Combined
-          preview:                    => core.forum.composer.preview_tooltip
+  forum:
+    revisions: "{revisionCount, plural, one {{revisionCount} revisione} other {{revisionCount} revisioni}}"
+    emptyText: Nessuna revisione
+    editedText: => core.forum.post.edited_text
+    deletedText: (eliminato)
+    
+    tooltips:
+      # Revision List Tooltips
+      mostRecent: più recente
+      originalContent: => the-turk-diff.ref.originalContent
+      revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
+      ## Renderer Switcher Tooltips
+      sideBySide: Side by side
+      inline: Line by line
+      combined: Combined
+      preview: => core.forum.composer.preview_tooltip
 
-        # Buttons
-        optionsButton:                Opzioni
-        deleteButton:                 => core.forum.post_controls.delete_button
-        rollbackButton:               "Rollback alla revisione {number}"
-        rollbackToOriginalButton:     Rollback all'originale
-        revertChangesButton:          Rollback ultime modifiche
+    # Buttons
+    optionsButton: Opzioni
+    deleteButton: => core.forum.post_controls.delete_button
+    rollbackButton: "Rollback alla revisione {number}"
+    rollbackToOriginalButton: Rollback all'originale
+    revertChangesButton: Rollback ultime modifiche
 
-        # Confirmation Messages
-        confirmRollback:              Sei sicuro di voler modificare il post?
-        confirmDelete:                Sei sicuro di voler eliminare il contenuto di questa revisione dalla cronologia?
+    # Confirmation Messages
+    confirmRollback: Sei sicuro di voler modificare il post?
+    confirmDelete: Sei sicuro di voler eliminare il contenuto di questa revisione dalla cronologia?
 
-        # Error Messages
-        rollbackErrorMessage:         Rollback fallito.
-        deleteErrorMessage:           Cancellazione del contenuto della revisione fallita.
+    # Error Messages
+    rollbackErrorMessage: Rollback fallito.
+    deleteErrorMessage: Cancellazione del contenuto della revisione fallita.
 
-        # Informative Messages
-        rollbackSuccessMessage:       Le modifiche sono state annullate.
-        deleteSuccessMessage:         Il contenuto della revisione è stato eliminato.
-        editedInfo:                   => core.forum.post.edited_tooltip
-        deletedInfo:                  "{username} ha eliminato questa revisione {ago}"
-        createdInfo:                  "{username} ha creato {ago}"
-        revisionInfo:                 "Modificato {revisionCount, plural, one {{revisionCount} volta} other {{revisionCount} volte}}, le più recenti in cima"
-        noDiff:                       Nessuna differenza trovata tra le due revisioni.
+    # Informative Messages
+    rollbackSuccessMessage: Le modifiche sono state annullate.
+    deleteSuccessMessage: Il contenuto della revisione è stato eliminato.
+    editedInfo: => core.forum.post.edited_tooltip
+    deletedInfo: "{username} ha eliminato questa revisione {ago}"
+    createdInfo: "{username} ha creato {ago}"
+    revisionInfo: "Modificato {revisionCount, plural, one {{revisionCount} volta} other {{revisionCount} volte}}, le più recenti in cima"
+    noDiff: Nessuna differenza trovata tra le due revisioni.
 
-        differences:
-           # one of the following will be used in place of {old} or {new} in ‘sentence’ key
-          originalContent:            => the-turk-diff.ref.originalContent
-          currentContent:             => the-turk-diff.ref.currentContent
-          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
-          # ---
-          sentence:                   "Stai visualizzando le differenze tra {old} e {new}"
+    differences:
+      # one of the following will be used in place of {old} or {new} in ‘sentence’ key
+      originalContent: => the-turk-diff.ref.originalContent
+      currentContent: => the-turk-diff.ref.currentContent
+      revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
+      # ---
+      sentence: "Stai visualizzando le differenze tra {old} e {new}"
 
-        previewMode:
-          # one of the following will be used in place of {content} in ‘sentence’ key
-          originalContent:            => the-turk-diff.ref.originalContent
-          currentContent:             => the-turk-diff.ref.currentContent
-          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
-          # ---
-          sentence:                   "Stai visualizzando l'anteprima per {content}"
-    ref:
-        originalContent:              contenuto originale
-        currentContent:               contenuto attuale
-        revisionWithNumber:           "revisione {number}"
+    previewMode:
+      # one of the following will be used in place of {content} in ‘sentence’ key
+      originalContent: => the-turk-diff.ref.originalContent
+      currentContent: => the-turk-diff.ref.currentContent
+      revisionWithNumber: => the-turk-diff.ref.revisionWithNumber
+      # ---
+      sentence: "Stai visualizzando l'anteprima per {content}"
+  ref:
+    originalContent: contenuto originale
+    currentContent: contenuto attuale
+    revisionWithNumber: "revisione {number}"

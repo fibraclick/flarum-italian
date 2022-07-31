@@ -3,16 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-ignore-users:
-  admin:
-    permissions:
-      can_not_be_ignored_label: 'Non può essere ignorato'
   forum:
     badge:
-      discussion_label: 'Iniziato da un utente ignorato'
+      discussion_label: 'Creata da un utente ignorato'
       user_label: 'Utente ignorato'
-    profile_link: 'Utenti Ignorati'
+    profile_link: 'Utenti ignorati'
     user_controls:
-      ignore_button: Ignora
+      ignore_button: Ignora utente
       ignore_confirmation: 'Sei sicuro di voler ignorare questo utente?'
-      unignore_button: 'Non Ignorare'
-      unignore_confirmation: 'Sei sicuro di voler eliminare "ignora" da questo utente?'
+      unignore_button: 'Non ignorare'
+      unignore_confirmation: 'Sei sicuro di non voler più ignorare questo utente?'

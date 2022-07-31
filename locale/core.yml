@@ -220,7 +220,7 @@ core:
       posts_load_more_button: '=> core.ref.load_more'
       settings_link: '=> core.ref.settings'
     user_controls:
-      button: Controlli
+      button: Opzioni
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Sei sicuro/a di voler eliminare questo utente? I messaggi di questo utente NON verrano cancellati.'
       delete_error_message: 'L''eliminazione dell''utente <i>{username} ({email})</i> fallità'

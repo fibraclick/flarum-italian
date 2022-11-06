@@ -4,6 +4,7 @@
 
 flarum-suspend:
   email:
+    no_reason_given: 'Non è stata indicata una motivazione per questa sospensione.'
     suspended:
       body: "Ciao {recipient_display_name},\n\nSei stato sospeso con la seguente motivazione:\n\n---\n{suspension_message}\n---\n"
       subject: 'Il tuo account è stato sospeso'

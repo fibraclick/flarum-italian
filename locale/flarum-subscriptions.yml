@@ -23,7 +23,8 @@ flarum-subscriptions:
       new_post_text: '{username} ha scritto un messaggio'
     settings:
       follow_after_reply_label: 'Segui automaticamente le discussioni a cui rispondo'
-      notify_new_post_label: 'Qualcuno risponde a una discussione che sto seguendo'
+      notify_for_all_posts_label: 'Notifica ogni nuovo post anziché solo l''ultimo della discussione'
+      notify_new_post_label: 'Qualcuno risponde in una discussione che sto seguendo'
     sub_controls:
       follow_button: '=> flarum-subscriptions.ref.follow'
       following_button: '=> flarum-subscriptions.ref.following'

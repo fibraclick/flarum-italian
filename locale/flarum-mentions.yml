@@ -7,7 +7,10 @@ flarum-mentions:
     composer:
       mention_tooltip: 'Rispondi a un utente o un messaggio'
       reply_to_post_text: 'Rispondi a #{number}'
+    group_mention:
+      deleted_text: '[gruppo sconosciuto]'
     notifications:
+      group_mentioned_text: '{username} ha menzionato un gruppo di cui fai parte'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{count, plural, one {{username} ha risposto a un tuo messaggio} other {{username} hanno risposto a un tuo messaggio}}'
       user_mentioned_text: '{username} ti ha menzionato'
@@ -21,6 +24,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[non disponibile]'
     settings:
+      notify_group_mentioned_label: 'Qualcuno menziona un gruppo di cui faccio parte'
       notify_post_mentioned_label: 'Qualcuno risponde a un mio messaggio'
       notify_user_mentioned_label: 'Qualcuno mi menziona in un messaggio'
     user:

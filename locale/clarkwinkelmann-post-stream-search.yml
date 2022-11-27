@@ -1,0 +1,23 @@
+clarkwinkelmann-post-stream-search:
+  forum:
+    stream:
+      noResults: Nessun risultato in questa discussione
+      unmatchedGap: '{count, plural, one {Un post che non contiene il termine di ricerca è stato nascosto} other {{count} post che non contengono il termine di ricerca sono stati nascosti}}'
+      otherAuthorsGap: '{count, plural, one {Un post di un altro utente è stato nascosto} other {{count} post di altri utenti sono stati nascosti}}'
+    toolbar:
+      searchPlaceholder: Cerca nella discussione...
+      authorPlaceholder: Filtra per utente...
+      summary: '{matching} di {total} risultati'
+      pin: Apri sempre la barra di ricerca nelle discussioni
+      close: Rimuovi filtri e chiudi la barra di ricerca
+      clear: Rimuovi filtri
+    discussionControls:
+      searchInDiscussion: Cerca nella discussione
+    postControls:
+      authorFilter: Mostra solo messaggi di questo utente
+    post:
+      opBadge: Autore della discussione
+      opBadgeTooltip: Premi per mostrare solo i messaggi di questo utente
+    cannotGoToPost:
+      message: Non è stato possibile andare al messaggio
+      action: Prova a rimuovere i filtri

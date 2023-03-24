@@ -6,25 +6,34 @@ core:
       subject: Attiva il tuo account
       body: |
         Ciao {username}!
+
         Premi sul seguente link per confermare la tua iscrizione al forum.
+
         {url}
-        Se non ti sei iscritto, ignora questa email.
+
+        Se non ti sei iscritto, puoi ignorare questa email.
         Non rispondere a questa email.
     confirm_email:
       subject: Conferma il nuovo indirizzo email
       body: |
         Ciao {username}!
+        
         Premi sul seguente link per confermare il tuo indirizzo email.
+
         {url}
-        Se non sei stato tu a richiedere il cambio email, ignora questa email.
+        
+        Se non sei stato tu a richiedere il cambio email, puoi ignorare questa email.
         Non rispondere a questa email.
     reset_password:
       subject: Recupero password
       body: |
         Ciao {username}!
+
         Premi sul seguente link per impostare una nuova password.
+
         {url}
-        Se non sei stato tu a richiedere il ripristino della password, ignora questa email.
+
+        Se non sei stato tu a richiedere il ripristino della password, puoi ignorare questa email.
         Non rispondere a questa email.
     send_test:
       body: |

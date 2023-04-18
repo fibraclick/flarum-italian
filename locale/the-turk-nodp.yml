@@ -1,7 +1,7 @@
 the-turk-nodp:
   forum:
     composer_edit:
-      double_posting_warning_description: 'Hai già risposto a questa discussione di recente, per favore modifica il tuo ultimo post.'
-      double_posting_warning_title: 'Hai risposto per ultimo a questa discussione'
+      double_posting_warning_title: '💬 Hai risposto per ultimo a questa discussione'
+      double_posting_warning_description: '✏️ Per favore, modifica questo tuo ultimo post. Puoi citare più utenti e rispondere a più messaggi contemporaneamente.'
     discussion:
       cannot_reply_alert_message: 'Non puoi rispondere a questa discussione finché qualcun altro non risponde.'

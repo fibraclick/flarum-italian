@@ -171,7 +171,7 @@ core:
       viewing_text: '{count, plural, one {Messaggio {index} di {formattedCount}} other {Messaggio {index} di {formattedCount}}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Il vecchio titolo era: "{old}"'
-      discussion_renamed_text: '{username} ha cambiato il titolo in {new}.'
+      discussion_renamed_text: '{username} ha cambiato il titolo in {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} dopo'
@@ -182,6 +182,38 @@ core:
       all_discussions_button: 'Cerca "{query}" tra tutte le discussioni'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} su {os}'
+      cannot_terminate_current_session: 'Impossibile terminare la sessione corrente. Effettua un Log out invece.'
+      created: Creato
+      current_active_session: 'Sessioni attive correnti'
+      developer_tokens_heading: 'Token sviluppatori'
+      empty_text: 'Sembra non ci sia niente da visualizzare qui.'
+      global_logout:
+        heading: 'Logout globale'
+        help_text: 'Cancella la sessione corrente del cookie, termina tutte le sessioni, revoca i token dello sviluppatore e invalida qualsiasi email di conferma o reimpostazione della password.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Nascondi Token'
+      last_activity: 'Ultima attività'
+      never: Mai
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Crea Token'
+        title: '=> core.ref.new_token'
+        title_placeholder: Titolo
+      revoke_access_token: Revoca
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Sessione terminatea} other {# Sessioni terminate}}.'
+      session_termination_failed: 'Si è verificato un errore durante la chiusura delle sessioni.'
+      sessions_heading: 'Sessioni Attive'
+      show_access_token: 'Guarda Token'
+      terminate_all_other_sessions: 'Termina tutte le altre sessioni'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Termina
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token revocato.'
+      token_title_placeholder: /
     settings:
       account_heading: Account
       change_email_button: '=> core.ref.change_email'
@@ -214,6 +246,7 @@ core:
       posts_empty_text: 'Non ci sono messaggi.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: Opzioni
@@ -243,6 +276,8 @@ core:
       dismiss_a11y_label: 'Ignora avviso'
     badge:
       hidden_tooltip: Nascosto
+    data_segment:
+      label: '{label}:'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Mostra/nascondi menù'
@@ -260,7 +295,11 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      dependent_extensions_message: 'Non puoi disattivare l''estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}'
+      extension_initialiation_failed_message: 'Impossibile inizializzare {extension}, controlla la console del browser per ulteriori informazioni.'
+      generic_cross_origin_message: 'Ops! Qualcosa è andato storto durante una richiesta cross-origin. Ricarica la pagina e riprova.'
       generic_message: 'Oops! Qualcosa è andato storto. Ricarica la pagina e riprova.'
+      missing_dependencies_message: 'Non puoi attivare l''estensione {extension} finché non attiverai le seguenti estensioni: {extensions}'
       not_found_message: 'La risorsa richiesta non è stata trovata.'
       payload_too_large_message: 'La dimensione della richiesta è troppo grande.'
       permission_denied_message: 'Non hai il permesso per svolgere questa azione.'
@@ -299,11 +338,15 @@ core:
     edit_user: 'Modifica utente'
     email: Email
     extensions: Estensioni
+    generic_confirmation_message: 'Sei sicuro di voler procedere? Questa azione non può essere annullata.'
+    icon: Icona
+    icon_text: 'Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.'
     load_more: 'Carica altro'
     loading: Caricamento...
     log_in: Login
     log_out: Logout
     mark_all_as_read: 'Imposta tutto come letto'
+    new_token: 'Nuovo token'
     next_page: 'Pagina successiva'
     notifications: Notifiche
     okay: OK
@@ -316,6 +359,8 @@ core:
     reset_your_password: 'Ripristina password'
     restore: Ripristina
     save_changes: 'Salva modifiche'
+    search_users: 'Cerca utenti'
+    security: Sicurezza
     settings: Impostazioni
     sign_up: Registrati
     some_others: '{count, plural, one {# altro} other {altri #}}'

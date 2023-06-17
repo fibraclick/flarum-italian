@@ -15,7 +15,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: 'Scegli le categorie/tag'
     composer_discussion:
-      choose_tags_link: 'Scegli categorie/tag'
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: 'Modifica categorie/tag'
     header:
@@ -25,14 +25,23 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'Senza categoria/tag'
     post_stream:
-      added_and_removed_tags_text: '{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}.'
-      added_tags_text: '{username} ha aggiunto {tagsAdded}.'
-      removed_tags_text: '{username} ha rimosso {tagsRemoved}.'
+      added_and_removed_tags_text: '{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved} {time}.'
+      added_tags_text: '{username} ha aggiunto {tagsAdded} {time}.'
+      removed_tags_text: '{username} ha rimosso {tagsRemoved} {time}.'
       tags_text: '{count, plural, one {il tag {tags}} other {i tag {tags}}}'
     tag:
       meta_description_text: 'Tutte le discussioni con la categoria/tag {tag}'
   lib:
     deleted_tag_text: Eliminato
+    tag_selection_modal:
+      bypass_requirements: 'Bypassa requisiti tag'
+      choose_primary_placeholder: '{count, plural, one {Scegli categoria} other {Scegli # categorie}}'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Scegli categorie/tag'
+    choose_tags_placeholder: '{count, plural, one {Scegli ancora un tag} other {Scegli ancora # tag}}'
     name: Nome
     tags: Categorie/tag

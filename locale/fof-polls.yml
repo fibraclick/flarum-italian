@@ -20,6 +20,9 @@ fof-polls:
       option_placeholder: Risposta
       options_label: Risposte
       public_poll_label: 'Consenti agli utenti di vedere chi ha votato'
+      allow_multiple_votes_label: 'Consenti agli utenti di votare per più opzioni'
+      max_votes_label: 'Voti massimi per utente'
+      max_votes_help: 'Imposta 0 per consentire agli utenti di votare per tutte le opzioni.'
       question_placeholder: Domanda
       submit: Invia
     moderation:
@@ -29,6 +32,7 @@ fof-polls:
     no_permission: 'Non hai i permessi per votare'
     poll_ended: 'Questo sondaggio è terminato.'
     public_poll: 'Visualizza votanti'
+    max_votes_allowed: 'Il sondaggio permette di votare per {max, plural, one {una opzione} other {# opzioni}}.'
     tooltip:
       badge: Sondaggio
       votes: '{count, plural, one {# voto} other {# voti}}'

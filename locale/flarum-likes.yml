@@ -12,6 +12,7 @@ flarum-likes:
       you_text: '=> core.ref.you'
     post_likes:
       title: 'Utenti che hanno messo mi piace'
+      load_more_button: => core.ref.load_more
     settings:
       notify_post_liked_label: 'Qualcuno mette mi piace a un mio messaggio'
     user:

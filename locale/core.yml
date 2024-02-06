@@ -203,7 +203,7 @@ core:
         title_placeholder: Titolo
       revoke_access_token: Revoca
       revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
-      session_terminated: '{count, plural, one {Sessione terminatea} other {# Sessioni terminate}}.'
+      session_terminated: '{count, plural, one {Sessione terminata} other {# Sessioni terminate}}.'
       session_termination_failed: 'Si è verificato un errore durante la chiusura delle sessioni.'
       sessions_heading: 'Sessioni Attive'
       show_access_token: 'Guarda Token'
